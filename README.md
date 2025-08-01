@@ -16,7 +16,7 @@ AutoHousekeeper 是一個結合熱詞偵測（Hotword Detection）、語音識�
 
 ## 📁 專案結構
 
-\`\`\`
+```
 MINJI_HOTWORD_PROJECT/
 ├── data/                        # 正式訓練用資料
 ├── data_laptop/                # 原始錄音資料（背景、wakeword）
@@ -39,7 +39,7 @@ MINJI_HOTWORD_PROJECT/
 ├── model.py                              # LSTM 模型架構
 ├── train_minji_model.py                  # 模型訓練流程
 └── sliding_last_segment.wav / .mp3       # 測試用音檔
-\`\`\`
+```
 
 ---
 
